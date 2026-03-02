@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/murra176'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/murra176/225-lab3-1'                   // <------change this
-        KUBECONFIG = credentials('murra176-225')                                             // <------change this
+        KUBECONFIG = credentials('murra176-225-sp26')                                             // <------change this
     }
 
     stages {
